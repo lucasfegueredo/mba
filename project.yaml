@@ -1,0 +1,179 @@
+aluno: "Lucas Fegueredo Rodrigues"
+data: "2026-11-05"
+link_conversa: "https://chatgpt.com/share/6aecc8d7-75d0-83e8-ac02-c59b05e77a26"
+
+produto:
+  nome: "Assinatura Pelos em Dia"
+  marca: "Pelos em Dia"
+  promessa: "Garantir banhos regulares para cães e gatos, com retirada e entrega em casa."
+  o_que_e: "Assinatura de serviços de banho para cães e gatos, com frequência mensal ou quinzenal, retirada e entrega do animal na residência."
+  problema: "O tutor precisa organizar o agendamento, levar o pet ao pet shop, esperar o atendimento terminar e depois buscá-lo. Uma tarefa que concorre com o trabalho e os compromissos pessoais."
+  diferenciais:
+    - titulo: "Banho programado"
+      texto: "O banho fica agendado regularmente, de acordo com a frequência contratada."
+    - titulo: "Retirada e entrega em casa"
+      texto: "O pet é buscado e devolvido na residência do tutor."
+    - titulo: "Comodidade"
+      texto: "O tutor não precisa interromper sua rotina para levar e buscar o animal."
+
+  planos:
+    - nome: "Avulso"
+      preco:
+        pequeno: "R$ 70"
+        medio: "R$ 100"
+        grande: "R$ 160"
+      descricao: "Um atendimento, com retirada e entrega em casa."
+    - nome: "Mensal"
+      preco:
+        pequeno: "R$ 60"
+        medio: "R$ 85"
+        grande: "R$ 130"
+      descricao: "Um banho por mês, com retirada e entrega em casa."
+    - nome: "Quinzenal"
+      preco:
+        pequeno: "R$ 110"
+        medio: "R$ 150"
+        grande: "R$ 230"
+      descricao: "Dois banhos por mês, com retirada e entrega em casa."
+
+  servicos_incluidos:
+    - "Banho"
+    - "Tosa higiênica"
+    - "Corte de unhas"
+    - "Limpeza de ouvidos"
+    - "Horário programado"
+    - "Retirada e entrega em casa"
+
+  observacoes:
+    - "Os mesmos serviços e preços se aplicam a cães e gatos."
+    - "O preço varia conforme o porte do animal: pequeno, médio ou grande."
+    - "Os planos podem contemplar banho, tosa ou ambos, conforme a modalidade contratada."
+
+  o_que_nao_faz: "Não oferece consultas veterinárias, vacinas, medicamentos ou tratamentos de pele. Não oferece banho extra fora da data prevista no plano."
+
+  vende_para: "B2C — tutores de cães e gatos."
+
+  o_que_ja_observo: "Quando não é possível retirar o animal na data programada, são feitas até três tentativas de contato. Se não houver sucesso na retirada, é cobrada somente uma taxa administrativa. Se o tutor confirmar o atendimento e o motorista se deslocar para buscar o animal, o valor integral é cobrado."
+
+persona:
+  manchete: "Tutor de rotina cheia que gosta do pet e só encara o banho quando o atraso já aparece em casa. O sábado, que seria o dia de resolver, some em outros compromissos, e o pet shop fica sem horário. Ele quer o cuidado já marcado, para isso deixar de ser mais uma tarefa da semana."
+
+  fala: "Eu quero que meu pet esteja sempre limpinho, mas não tenho tempo para ficar levando e buscando no pet shop."
+
+  dor: "Dificuldade de conciliar trabalho e compromissos pessoais com os deslocamentos e agendamentos necessários para manter o pet limpo."
+
+  jtbd: "Quero manter meu pet sempre limpo e bem cuidado sem precisar interromper minha rotina para organizar deslocamentos e agendamentos."
+
+  oferta: "Assinatura mensal ou quinzenal de banho, com retirada e entrega do pet em casa."
+
+  caminho: "Indicação de outro tutor, contato pelo WhatsApp, apresentação dos planos, esclarecimento sobre transporte e cuidados com o animal e contratação da assinatura."
+
+  cena: "O banho atrasou porque a semana encheu, e o tutor só percebe isso em casa. Ele trabalha o dia inteiro e deixa para marcar no sábado. O sábado vira mercado, família ou descanso, e a vaga do pet shop já foi. Passam três ou quatro semanas. À noite, o cão sobe no sofá, a casa fica com cheiro de pelo e alguém em casa comenta. Aí ele abre o WhatsApp para agendar e descobre que o próximo horário livre é dali a vários dias."
+
+  contradicao:
+    - "Para ter tranquilidade, ele entrega o animal a outra pessoa. O tempo livre depende de confiar na busca, no transporte e no banho feito fora da vista dele. Quem segura o pet no colo em casa hesita na hora de pôr o animal no carro de um desconhecido."
+    - "A fala pede o pet sempre limpinho. O plano de entrada é um banho por mês. Na cena, o incômodo aparece depois de três ou quatro semanas, que é o intervalo desse plano. O mensal repete o atraso que já incomoda. Quem quer 'sempre' está mais perto do quinzenal."
+
+  mapa_empatia:
+    diz: "Quer manter o pet limpo, mas não tem tempo para organizar idas e vindas ao pet shop."
+    faz: "Trabalha durante o dia, tenta resolver o banho aos sábados e pode adiar o agendamento quando não encontra horários."
+    pensa: "Precisa confiar em quem vai transportar e cuidar do animal. Pode recear a qualidade do banho, o transporte e o compromisso de uma assinatura."
+    sente: "Frustração quando não encontra horários disponíveis, pois entende que o banho está relacionado à saúde do animal e ao bem-estar do lar."
+
+  retrato:
+    - dimensao: "Gatilho"
+      o_que_sabemos: "O banho atrasa quando a semana fica cheia e o tutor não consegue agendar no sábado."
+      origem: "informei"
+      evidencia: "Relato do cenário em que passam três ou quatro semanas e o próximo horário disponível fica para vários dias depois."
+    - dimensao: "Dor"
+      o_que_sabemos: "Dificuldade de conciliar trabalho, compromissos pessoais e cuidados com o pet."
+      origem: "deduziu"
+      evidencia: "O tutor trabalha durante o dia e perde o sábado para outros compromissos."
+    - dimensao: "Confiança"
+      o_que_sabemos: "Precisa conhecer o atendimento, perceber zelo e paciência e confiar no transporte."
+      origem: "informei"
+      evidencia: "O tutor pode avaliar o primeiro atendimento e confiar mais a partir de indicações."
+    - dimensao: "Decisão"
+      o_que_sabemos: "Comodidade, indicação e confiança influenciam a contratação."
+      origem: "informei"
+      evidencia: "O tutor pode preferir um serviço indicado a um pet shop desconhecido."
+    - dimensao: "Qualidade esperada"
+      o_que_sabemos: "Espera que o serviço seja executado conforme solicitado, sem cortes excessivos ou diferentes do pedido e com limpeza adequada."
+      origem: "informei"
+      evidencia: "Relato dos motivos que poderiam levar ao cancelamento."
+    - dimensao: "Preço"
+      o_que_sabemos: "Os preços variam de R$ 60 a R$ 230 nos planos, conforme porte e frequência. A disposição real para pagar ainda precisa ser validada."
+      origem: "informei"
+      evidencia: "Tabela de preços definida para os planos."
+    - dimensao: "Contexto"
+      o_que_sabemos: "Trabalha durante o dia, tenta agendar aos sábados e pode encontrar falta de disponibilidade."
+      origem: "informei"
+      evidencia: "Cenário relatado pelo usuário."
+    - dimensao: "Objeções"
+      o_que_sabemos: "Confiança no transporte, segurança durante o trajeto, qualidade do banho e receio de ficar preso a uma assinatura."
+      origem: "informei"
+      evidencia: "Objeções levantadas pelo usuário."
+    - dimensao: "Retenção"
+      o_que_sabemos: "Preço, comodidade e confiança podem favorecer a permanência. Insatisfação, falta de dinheiro ou viagens podem levar ao cancelamento."
+      origem: "informei"
+      evidencia: "Relatos sobre motivos de permanência e cancelamento."
+
+  risco_do_retrato: "A persona depende da retirada e entrega em casa para perceber valor na assinatura. A operação precisa ser financeiramente sustentável e compatível com a disponibilidade do tutor. A frequência mensal também pode não atender à expectativa criada pela promessa de manter o pet sempre limpo."
+
+  decisoes:
+    por_que_esta: "A assinatura é um alivio para quem nao tem tempo para organizar na rotina um periodo para levar e o buscar o pet, então, ao contratar o plano, o tempo que ela teria que fazer esse percurso ela passa curtindo com seu animal."
+    descartadas:
+      - quem: "Tutor que prioriza o bem-estar do pet."
+        por_que: "porque a persona que prioriza o bem estar do pet acaba adicionando em sua rotina o cuidado e a organização para realizar as ações para os pets"
+      - quem: "Tutor que busca previsibilidade."
+        por_que: "e o que busca previsibilidade só estara terceirizando uma tarefa que ele já faria normalmente"
+    o_que_mudou: "A análise identificou que a retirada e a entrega em casa são essenciais para a proposta de valor, mas também representam um risco operacional e financeiro. A frequência mensal pode não corresponder à expectativa de manter o pet sempre limpo."
+
+  hipoteses:
+    - afirmacao: "Tutores com rotina cheia contratariam uma assinatura para não precisar organizar o deslocamento até o pet shop."
+      se_cair: "A persona principal pode não valorizar suficientemente a conveniência para justificar a assinatura."
+      fonte: "Hipótese baseada nos relatos e na construção da persona."
+      passos: "Entrevistar tutores sobre a última vez em que o banho atrasou, o que fizeram e quanto pagaram."
+      prazo: ""
+      confirma_se: "Os entrevistados relatarem dificuldades recorrentes para agendar e levar o pet e demonstrarem interesse concreto na assinatura."
+      cai_se: "Os entrevistados preferirem continuar levando o animal ao pet shop ou não demonstrarem disposição para contratar."
+    - afirmacao: "A retirada e a entrega em casa são fatores decisivos para a contratação."
+      se_cair: "A principal diferenciação da oferta pode não ser tão relevante quanto se imaginava."
+      fonte: "Hipótese baseada na proposta de valor."
+      passos: "Investigar a importância do transporte e calcular custos, tempo de rota e tentativas frustradas."
+      prazo: ""
+      confirma_se: "Os tutores considerarem a retirada e a entrega essenciais e a operação demonstrar viabilidade."
+      cai_se: "Os tutores não valorizarem o transporte ou os custos operacionais inviabilizarem o serviço."
+    - afirmacao: "O plano mensal pode não ser suficiente para tutores que desejam manter o pet sempre limpo."
+      se_cair: "A frequência mensal poderá atender à maior parte dos clientes."
+      fonte: "Hipótese baseada no cenário de atraso de três ou quatro semanas."
+      passos: "Perguntar aos tutores qual frequência de banho utilizam e qual frequência considerariam adequada."
+      prazo: ""
+      confirma_se: "Os entrevistados demonstrarem necessidade de banhos mais frequentes."
+      cai_se: "A maioria considerar um banho mensal suficiente."
+
+  antipersona:
+    criterio: "Tutor que não percebe valor em terceirizar o banho ou que não consegue manter uma rotina de utilização da assinatura."
+    perfis:
+      - quem: "Tutor que prefere dar banhos em casa."
+        por_que: "Prefere realizar o cuidado por conta própria e não sente necessidade de contratar o serviço."
+      - quem: "Tutor que está sempre viajando."
+        por_que: "Pode não conseguir utilizar o serviço com regularidade."
+      - quem: "Tutor que fica com o pet apenas alguns dias do mês, pois o animal mora com outra pessoa."
+        por_que: "Pode não ter disponibilidade do animal nas datas programadas."
+
+  leitura_critica:
+    vale_manter: "A persona do tutor com rotina cheia, que valoriza a comodidade, a organização e o tempo com o animal."
+    e_fragil: "O maior risco é a retirada e a entrega. Ela é o motivo pelo qual essa persona contrataria, e é a parte que o preço e a rotina dela não sustentam.
+
+O plano mensal do porte pequeno custa R$ 60, R$ 10 a menos que o avulso, e agora inclui duas viagens: buscar e devolver. O preço foi montado como banho na loja. A operação que conquista o tutor é outra. No mercado, buscar o pet encarece o plano. Aqui, a viagem entra de graça. Na primeira rota furada, atraso ou animal que não entra no carro, a conta não fecha e o horário prometido falha.
+
+Essa persona piora o furo. Ela trabalha o dia inteiro e perde o sábado. Para o pet sair e voltar, alguém precisa estar na porta numa janela marcada. O mesmo tutor que não tem tempo de ir ao pet shop também não está em casa quando o motorista chega. A contratação trava na hora de explicar o transporte. Quem entra cancela no primeiro desencontro, porque a confiança era justamente entregar o animal e recebê-lo de volta sem a semana parar.
+
+Os outros riscos ficam atrás desse. A frequência pesa na permanência: um banho por mês devolve o pet ao mesmo atraso de três ou quatro semanas que fez a pessoa procurar o plano, e o nome Pelos em Dia promete o contrário. A confiança quebra quando a viagem falha, mais do que quando o banho é apenas comum. O desconto de R$ 10, R$ 15 ou R$ 30 não segura ninguém depois de um retorno atrasado."
+    proximo_passo: "Validar a demanda com entrevistas e avaliar a viabilidade financeira e operacional da retirada e entrega, incluindo custo por rota, disponibilidade do tutor, atrasos e tentativas frustradas."
+
+visual:
+  cor: ""
+  imagem_capa: ""
+  imagem_persona: ""
